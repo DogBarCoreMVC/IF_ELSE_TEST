@@ -15,9 +15,9 @@ namespace Input_Data
             Console.WriteLine("Monney is = " + money + " Baht");//บอกจำนวนเงินที่ใส่เข้าไป
 
             Console.WriteLine("what do you want to buy:" + "\n" +
-               "Orange = " + orange + " Baht" + "\n" +"Lemon = " + lemon + " Baht");
+               "Orange = " + orange + " Baht" + "\n" +"Lemon = " + lemon + " Baht");//แสดงผลไม้ที่มีขาย
 
-            Console.Write("Input oreange or lemon:");
+            Console.Write("Input oreange or lemon:");//ใส่ชื่อผลไม้ที่ต้องการ
             string order = Console.ReadLine();
 
             if(order == "Orange" || order == "orange")
